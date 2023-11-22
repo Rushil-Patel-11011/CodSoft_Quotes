@@ -6,8 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
-import com.rushil.codsoft_quotes.databinding.ActivityMainBinding
-import kotlin.system.exitProcess
+
 
 class MainActivity : AppCompatActivity() {
 

@@ -3,7 +3,7 @@ package com.rushil.codsoft_quotes
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
-class ViewModel(val context: Context): ViewModel() {
+class ViewModel(private val context: Context): ViewModel() {
     private var quoteList: Array<Quote> = emptyArray()
     private var index = 0
 
